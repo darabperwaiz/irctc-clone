@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from "./components/Header"
 import Forms from "./components/Forms"
+import Homepage from "./Pages/Homepage/Homepage"
 
 function App() {
   
@@ -12,7 +13,7 @@ function App() {
     <>
       <div className="container">
         <Header />
-        <Forms />
+        <Homepage />
       </div>
     </>
   )
